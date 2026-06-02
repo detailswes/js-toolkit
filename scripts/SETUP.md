@@ -25,10 +25,10 @@ Open your crontab:
 crontab -e
 ```
 
-Add this line (runs every weekday at 9:15am):
+Add this line (runs every weekday at 10:30am):
 
 ```
-15 9 * * 1-5 cd /path/to/daily-utils && /usr/bin/node scripts/auto-commit.js >> /tmp/auto-commit.log 2>&1
+30 10 * * 1-5 cd /path/to/daily-utils && /usr/bin/node scripts/auto-commit.js >> /tmp/auto-commit.log 2>&1
 ```
 
 To verify it was added:
