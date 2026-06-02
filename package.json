@@ -1,0 +1,16 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "A growing collection of lightweight JavaScript utility functions",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "autocommit": "node scripts/auto-commit.js"
+  },
+  "keywords": ["utils", "helpers", "javascript"],
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.27.0"
+  }
+}
