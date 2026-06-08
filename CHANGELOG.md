@@ -5,3 +5,4 @@
 - **2026-06-03** — add unique() and uniqueBy() helpers (`src/array/unique.js`)
 - **2026-06-04** — add groupBy, supports key fn or string (`src/array/groupBy.js`)
 - **2026-06-05** — add compact() - strips falsy values from array (`src/array/compact.js`)
+- **2026-06-08** — array: fisher-yates shuffle impl (`src/array/shuffle.js`)
