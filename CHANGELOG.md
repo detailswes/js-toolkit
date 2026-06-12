@@ -8,3 +8,4 @@
 - **2026-06-08** — array: fisher-yates shuffle impl (`src/array/shuffle.js`)
 - **2026-06-09** — add partition() for splitting arrays by predicate (`src/array/partition.js`)
 - **2026-06-10** — add intersection and difference helpers (`src/array/intersection.js`)
+- **2026-06-12** — add debounce utility (`src/fn/debounce.js`)
